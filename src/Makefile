@@ -13,7 +13,7 @@ main: $(OBJS)
 	$(CC) $(C_FLAGS) -c -o $@ $<
 
 clean:
-	rm -rf *.o  *~  *.out
+	rm -rf *.o  *~  *.out main
 
 rmvim:
 	rm *~
